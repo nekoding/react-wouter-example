@@ -5,18 +5,18 @@ import Profile from "./components/Profile";
 export default function App() {
   return (
     <>
-      <div
-        style={{
-          display: "flex",
-          gap: "1rem",
-          alignItems: "center",
-        }}
-      >
-        <Link href="/">Home</Link>
-        <Link href="/profile">Profile</Link>
-        <Link href="/404">Not found</Link>
-      </div>
       <Router base="/react-wouter">
+        <div
+          style={{
+            display: "flex",
+            gap: "1rem",
+            alignItems: "center",
+          }}
+        >
+          <Link href="/">Home</Link>
+          <Link href="/profile">Profile</Link>
+          <Link href="/404">Not found</Link>
+        </div>
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/profile" component={Profile} />
