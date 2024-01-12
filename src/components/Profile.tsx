@@ -2,6 +2,7 @@ export default function Profile() {
   return (
     <div>
       <h1>Profile</h1>
+      <img src="/assets/react.svg"></img>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos
         quia maiores praesentium eaque voluptatibus sint rerum reprehenderit
